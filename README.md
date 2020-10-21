@@ -6,3 +6,7 @@ Specifically, we will develop the ability to allow for bulk downloading of slide
 
 Understanding that the expectation is for each group member to spend around 20 hours of effort on this assignment, if we are able to complete the bulk download in less than 60 hours (which seems likely), we will then move onto another topic, such as improving performance or expanding the content to include slides and textbooks from other courses.  This could potentially expand the user base to students and instructors of other courses as well.
 
+### Team members:
+*	Yuxiang Huang - yh43@illinois.edu
+*	Bob Manasco - manasco2@illinois.edu - Group Coordinator
+*	Cullen Stone - cpstone2@illinois.edu
