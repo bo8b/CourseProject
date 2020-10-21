@@ -10,3 +10,6 @@ Understanding that the expectation is for each group member to spend around 20 h
 *	Yuxiang Huang - yh43@illinois.edu
 *	Bob Manasco - manasco2@illinois.edu - Group Coordinator
 *	Cullen Stone - cpstone2@illinois.edu
+
+### Submission Files:
+*	Project Proposal - "Green Koalas Project Proposal.docx"
