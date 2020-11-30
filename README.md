@@ -13,3 +13,5 @@ Understanding that the expectation is for each group member to spend around 20 h
 
 ### Submission Files:
 *	Project Proposal - "Green Koalas Project Proposal.docx"
+*	Project Progress Report - "Green Koalas Project Progress Report.docx"
+
