@@ -1,0 +1,15 @@
+
+EducationalWeb/pdf.js/static/slides/cs-410/13_week-12----02_week-12-lessons----08_12-8-summary-for-exam-2_TM-45-summary.txt/cs-410----13_week-12----02_week-12-lessons----08_12-8-summary-for-exam-2_TM-45-summary.txt----slide0.pdf
+*.pdf
+EducationalWeb/__pycache__/model.cpython-35.pyc
+EducationalWeb/__pycache__/model.cpython-39.pyc
+EducationalWeb/__pycache__/ranker.cpython-35.pyc
+EducationalWeb/__pycache__/ranker.cpython-39.pyc
+EducationalWeb/static/tf_idf_outputs.zip
+EducationalWeb/static/tf_idf_outputs/normalized_tfidfs.npy
+EducationalWeb/static/tf_idf_outputs/ss_corpus.p
+EducationalWeb/static/tf_idf_outputs/vocabulary_list.p
+EducationalWeb/static/tf_idf_outputs/vec.p
+EducationalWeb/static/tf_idf_outputs/normalized_title_tfidfs.npy
+EducationalWeb/static/tf_idf_outputs/idf_list.p
+EducationalWeb/pdf.js/static/slides/cs-410.zip
