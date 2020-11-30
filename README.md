@@ -12,6 +12,6 @@ Understanding that the expectation is for each group member to spend around 20 h
 *	Cullen Stone - cpstone2@illinois.edu
 
 ### Submission Files:
-*	Project Proposal - "Green Koalas Project Proposal.docx"
-*	Project Progress Report - "Green Koalas Project Progress Report.docx"
+*	[Project Proposal - "Green Koalas Project Proposal.docx"](https://github.com/bo8b/CourseProject/blob/main/Green%20Koalas%20Project%20Proposal.docx)
+*	[Project Progress Report - "Green Koalas Project Progress Report.docx"](https://github.com/bo8b/CourseProject/blob/main/Green%20Koalas%20Project%20Progress%20Report.docx)
 
