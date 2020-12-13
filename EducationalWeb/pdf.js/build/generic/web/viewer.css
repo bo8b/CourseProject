@@ -1325,7 +1325,7 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
 }
 
 .toolbarButton.explain::before{
-  content: url(images/clipart-3-11-4-37-12.png);
+  content: url(images/new_graduation_cap.png);
 }
 
 .toolbarButton.openFile::before,
@@ -1336,6 +1336,10 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
 .toolbarButton.download::before,
 .secondaryToolbarButton.download::before {
   content: url(images/toolbarButton-download.png);
+}
+
+.toolbarButton.downloadAll::before {
+  content: url(images/downloadAll.png);
 }
 
 .toolbarButton.bookmark,
