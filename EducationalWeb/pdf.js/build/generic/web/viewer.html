@@ -30,12 +30,48 @@ See https://github.com/adobe-type-tools/cmap-resources
 
     <link rel="stylesheet" href="viewer.css">
 <script src="http://timan102.cs.illinois.edu/explanation//static/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://stuk.github.io/jszip/dist/jszip.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/g/filesaver.js"></script>
+<script type="text/javascript" src="https://stuk.github.io/jszip-utils/dist/jszip-utils.js" ></script>
 
 <!-- This snippet is used in production (included from viewer.html) -->
 <link rel="resource" type="application/l10n" href="locale/locale.properties">
 <script src="../build/pdf.js"></script>
-
-
+<script>
+  function alertAll() {
+    var split_text = document.getElementById("temporaryurl").value;
+    split_text = split_text.split("/");
+    split_text = "/" + split_text[3] + "/" + split_text[4] + "/" + split_text[5] + "/" + split_text[6];
+    zipItUp(split_text);
+  }
+  function zipItUp(dirName) {
+    var urls = getURLs(dirName);
+    var zip = new JSZip();
+    var count = 0;
+    urls.forEach(function(url){
+        JSZipUtils.getBinaryContent(url, function (err, data) {
+            if(!err) {
+                zip.file(url, data,  {binary:true});
+            }
+            count++;
+            if (count == urls.length) {
+                zip.generateAsync({type:'blob'}).then(function(content) {
+                    saveAs(content, "slide-series.zip");
+                });
+              }
+          });
+      })
+  }
+  function getURLs(dirName) {
+    var urls = [];
+    var fileName = "/cs-410----" + dirName.substring(22) + "----slide";
+    var maxSlide = 99;
+    for (i = 0; i <= maxSlide; i++) {
+        urls.push(dirName + fileName + i + ".pdf");
+    }
+    return urls;
+  }
+</script>
 
     <script src="viewer.js"></script>
 
@@ -226,6 +262,9 @@ See https://github.com/adobe-type-tools/cmap-resources
 
                 <button id="download" class="toolbarButton download hiddenMediumView" title="Download" tabindex="34" data-l10n-id="download">
                   <span data-l10n-id="download_label">Download</span>
+                </button>
+                <button id="DownloadAll" class="toolbarButton downloadAll explain" tabindex="33" title="Download All" onclick="alertAll();"> 
+                  <span id="explanation_label">Download All</span>
                 </button>
                 <a href="#" id="viewBookmark" class="toolbarButton bookmark hiddenSmallView" style="display: none;" title="Current view (copy or open in new window)" tabindex="35" data-l10n-id="bookmark">
                   <span data-l10n-id="bookmark_label">Current View</span>

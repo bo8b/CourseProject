@@ -760,6 +760,11 @@ const PDFViewerApplication = {
 
   setTitleUsingUrl(url = "") {
     this.url = url;
+    var url_node = document.createElement("p");
+    url_node.setAttribute("id", "temporaryurl");
+    url_node.setAttribute("type", "hidden");
+    url_node.value = this.url;
+    document.getElementById('toolbarViewer').appendChild(url_node);
     this.baseUrl = url.split("#")[0];
     let title = (0, _ui_utils.getPDFFileNameFromURL)(url, "");
 
