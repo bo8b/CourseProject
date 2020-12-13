@@ -4,7 +4,7 @@ For this group project, Team Green Koalas will be improving the [Educational Web
 
 Specifically, we will develop the ability to allow for bulk downloading of slides.  This simple enhancement would provide concrete value to future students, instructors, and other users of this system for years to come.
 
-Understanding that the expectation is for each group member to spend around 20 hours of effort on this assignment, if we are able to complete the bulk download in less than 60 hours (which seems likely), we will then move onto another topic, such as improving performance or expanding the content to include slides and textbooks from other courses.  This could potentially expand the user base to students and instructors of other courses as well.
+This enhancement required each group member to spend around 20 hours of effort on this assignment, so we were not able to move onto any another topic.
 
 ### Team members:
 *	Yuxiang Huang - yh43@illinois.edu
@@ -14,4 +14,6 @@ Understanding that the expectation is for each group member to spend around 20 h
 ### Submission Files:
 *	[Project Proposal - "Green Koalas Project Proposal.docx"](https://github.com/bo8b/CourseProject/blob/main/Green%20Koalas%20Project%20Proposal.docx)
 *	[Project Progress Report - "Green Koalas Project Progress Report.docx"](https://github.com/bo8b/CourseProject/blob/main/Green%20Koalas%20Project%20Progress%20Report.docx)
+*	[Project Documentation - "Green Koalas Project Documentation.docx"](https://github.com/bo8b/CourseProject/blob/main/Green%20Koalas%20Project%20Documentation.docx)
+*	[Project Tutorial Video - COMING SOON]
 
