@@ -13,3 +13,7 @@ EducationalWeb/static/tf_idf_outputs/vec.p
 EducationalWeb/static/tf_idf_outputs/normalized_title_tfidfs.npy
 EducationalWeb/static/tf_idf_outputs/idf_list.p
 EducationalWeb/pdf.js/static/slides/cs-410.zip
+EducationalWeb/pdf.js/ZipTest.html
+EducationalWeb/pdf.js/jszip.js
+EducationalWeb/pdf.js/jszip-utils.js
+EducationalWeb/pdf.js/FileSaver.js
