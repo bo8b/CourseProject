@@ -15,5 +15,5 @@ This enhancement required each group member to spend around 20 hours of effort o
 *	[Project Proposal - "Green Koalas Project Proposal.docx"](https://github.com/bo8b/CourseProject/blob/main/Green%20Koalas%20Project%20Proposal.docx)
 *	[Project Progress Report - "Green Koalas Project Progress Report.docx"](https://github.com/bo8b/CourseProject/blob/main/Green%20Koalas%20Project%20Progress%20Report.docx)
 *	[Project Documentation - "Green Koalas Project Documentation.docx"](https://github.com/bo8b/CourseProject/blob/main/Green%20Koalas%20Project%20Documentation.docx)
-*	[Project Tutorial Video - COMING SOON]
+*	[Project Tutorial Video](https://youtu.be/geXK8Ohcg3c)
 
